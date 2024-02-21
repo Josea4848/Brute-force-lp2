@@ -107,6 +107,10 @@ int main() {
       fprintf(saida, "%s\n", senha);
     } 
 
+    //Fechando arquivos
+    fclose(senhaFile);
+    fclose(saida);
+
     exit(EXIT_SUCCESS);
   }
 
